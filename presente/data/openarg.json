@@ -1,0 +1,64 @@
+{
+  "fuente_general": "OpenARG (https://openarg.org), MCP https://mcp.openarg.org/mcp, consultado 2026-10-30",
+  "educacion_superior": {
+    "dataset": "Educación superior (datos.gob.ar)",
+    "tabla_openarg": "raw.datos_gob_ar__educacion_superior__8a385b7b__v1",
+    "fuente_oficial": "https://www.argentina.gob.ar/sites/default/files/00._educ_superior_datos.csv",
+    "nota": "Totales recalculados desde el CSV oficial (separador ';', miles con punto). La suma directa en OpenARG mezcla unidades por el separador de miles.",
+    "por_anio": [
+      {"anio": 2014, "estudiantes": 2005469, "egresados": 134234},
+      {"anio": 2015, "estudiantes": 2053651, "egresados": 139871},
+      {"anio": 2016, "estudiantes": 1930057, "egresados": 119794},
+      {"anio": 2017, "estudiantes": 1985699, "egresados": 118983},
+      {"anio": 2018, "estudiantes": 2045502, "egresados": 126933},
+      {"anio": 2019, "estudiantes": 2145062, "egresados": 125560},
+      {"anio": 2020, "estudiantes": 2459687, "egresados": 134488},
+      {"anio": 2021, "estudiantes": 2516174, "egresados": 135465},
+      {"anio": 2022, "estudiantes": 2703679, "egresados": 162168},
+      {"anio": 2023, "estudiantes": 2730800, "egresados": 159730}
+    ],
+    "anio_2023": {
+      "tipo_universidad": {"publica": {"estudiantes": 2130160, "egresados": 101839}, "privada": {"estudiantes": 600640, "egresados": 57891}},
+      "nivel": {"pregrado": {"estudiantes": 319217, "egresados": 33535}, "grado": {"estudiantes": 2232268, "egresados": 105264}, "posgrado": {"estudiantes": 179315, "egresados": 20931}},
+      "disciplina_ocde": {
+        "Ciencias Sociales": {"estudiantes": 1260174, "egresados": 86394},
+        "Ciencias Médicas": {"estudiantes": 529534, "egresados": 33283},
+        "Exactas y Naturales": {"estudiantes": 352688, "egresados": 13836},
+        "Ingeniería y Tecnología": {"estudiantes": 292679, "egresados": 14600},
+        "Humanidades": {"estudiantes": 221935, "egresados": 8876},
+        "Ciencias Agrícolas": {"estudiantes": 73790, "egresados": 2741}
+      }
+    }
+  },
+  "progresar": {
+    "dataset": "Prestaciones de la seguridad social. Seguimiento Físico-Financiero (datos.gob.ar)",
+    "tabla_openarg": "raw.cache_datos_gob_ar_prestaciones_de_la_seguridad_soc_rcfc6112ff3",
+    "nota": "Beneficiarios Progresar por trimestre. Para cobrar deben certificar regularidad/asistencia cada año.",
+    "beneficiarios": [
+      {"periodo": "2019-10", "valor": 571445},
+      {"periodo": "2021-10", "valor": 1066501},
+      {"periodo": "2022-10", "valor": 1697663},
+      {"periodo": "2023-10", "valor": 1870986},
+      {"periodo": "2024-10", "valor": 1280390},
+      {"periodo": "2025-04", "valor": 709189},
+      {"periodo": "2025-07", "valor": 749785},
+      {"periodo": "2025-10", "valor": 811448}
+    ]
+  },
+  "capacitaciones_entre_rios": {
+    "dataset": "Plan anual de capacitaciones (Entre Ríos, Secretaría de Modernización)",
+    "tabla_openarg": "raw.entre_rios__plan_anual_de_capacitaciones__29676ff7__v1",
+    "nota": "88 cursos a mayo 2023, muchos en colaboración con UNER y UADER. La mayoría registra inscriptos pero 0 en 'participantes por año': el dato de quién completó no existe o no se consolida.",
+    "ejemplo": [
+      {"curso": "Comunicación Escrita (FTS-UNER)", "inscriptos": 70, "participantes_registrados": 0},
+      {"curso": "Contrataciones del Estado Provincial (FCEco-UNER)", "inscriptos": 62, "participantes_registrados": 0},
+      {"curso": "Diseño y Formulación de Proyectos (FTS-UNER)", "inscriptos": 64, "participantes_registrados": 13}
+    ]
+  },
+  "otros_datasets_relacionados": [
+    {"nombre": "Asistencia escolar (CABA, población 6 a 24 años por condición de asistencia)", "tabla": "raw.cache_caba_asistencia_escolar_rd6b825b3a1"},
+    {"nombre": "SUBE estudiantil (Corrientes, 131.186 filas; requiere acreditar condición de estudiante regular)", "tabla": "raw.cache_corrientes_sube_estudiantil_rfda44fc490"},
+    {"nombre": "Graduados universitarios Araucano 2016-2018 (500.000 filas, inserción laboral)", "tabla": "raw.cache_datos_gob_ar_graduados_universitarios_del_sis_r1b8ba6e584"},
+    {"nombre": "Universidades georreferenciadas PBA (674 sedes)", "tabla": "raw.cache_buenos_aires_universidades_rea3917452a"}
+  ]
+}

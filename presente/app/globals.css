@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafaf7;
+  --foreground: #14213d;
+  --accent: #0f766e;
+  --accent-ink: #ffffff;
+  --muted: #5b6475;
+  --card: #ffffff;
+  --line: #e5e3dc;
+  --ok: #15803d;
+  --warn: #b45309;
+  --bad: #b91c1c;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-muted: var(--muted);
+  --color-card: var(--card);
+  --color-line: var(--line);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-bad: var(--bad);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.btn-primary { @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-semibold transition active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none bg-accent text-accent-ink hover:brightness-110; }
+.btn-ghost { @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-semibold transition active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none border border-line bg-card hover:bg-background; }
+.card { @apply rounded-2xl border border-line bg-card p-6 shadow-sm; }
+.input { @apply w-full rounded-xl border border-line bg-card px-4 py-3 text-base outline-none focus:border-accent focus:ring-2 focus:ring-accent/20; }
+.label { @apply mb-1 block text-sm font-medium text-muted; }
+.pill { @apply inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-semibold; }
