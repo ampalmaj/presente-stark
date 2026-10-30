@@ -38,9 +38,9 @@ Todos obtenidos vía el MCP de OpenARG el 30 de octubre de 2026. Detalle y tabla
 | De ellos en universidades públicas | 2.130.160 (78%) | ídem |
 | Egresados en 2023 | 159.730, el **5,8%** de los estudiantes | ídem |
 | Crecimiento de la matrícula 2014 a 2023 | de 2,0 M a 2,7 M (+36%), con egresados casi planos (134 mil a 160 mil) | ídem |
-| Beneficiarios Progresar que deben certificar regularidad cada año | **811.448** (octubre 2025); pico de 1,87 M en 2023 | Prestaciones de la seguridad social, datos.gob.ar |
+| Beneficiarios Progresar, todas las líneas (Obligatorio, Superior, Trabajo, Enfermería); la línea Superior exige que la institución certifique regularidad 3 veces al año | **811.448** (octubre 2025); pico de 1,87 M en 2023. El dataset no desagrega por línea | Prestaciones de la seguridad social, datos.gob.ar |
 
-Lectura para el pitch: la asistencia la toman docentes para 2,7 millones de estudiantes todas las semanas, y 800 mil de ellos necesitan además probar regularidad para cobrar una beca. La matrícula creció un tercio en diez años mientras la tasa de egreso bajó de 6,7% a 5,8%: el sistema tiene cada vez más gente adentro de la que sabe poco hasta que deja de venir.
+Lectura para el pitch: la asistencia la toman docentes para 2,7 millones de estudiantes todas las semanas, y los que cobran Progresar Superior necesitan además que su institución certifique regularidad tres veces al año. Cuidado: los 811 mil son de todas las líneas de Progresar, no solo universitarios; OpenARG no tiene el desglose. La matrícula creció un tercio en diez años mientras la tasa de egreso bajó de 6,7% a 5,8%: el sistema tiene cada vez más gente adentro de la que sabe poco hasta que deja de venir.
 
 ### El problema existe también en extensión y capacitación
 

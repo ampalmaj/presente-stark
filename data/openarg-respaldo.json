@@ -33,7 +33,7 @@
   "progresar": {
     "dataset": "Prestaciones de la seguridad social. Seguimiento Físico-Financiero (datos.gob.ar)",
     "tabla_openarg": "raw.cache_datos_gob_ar_prestaciones_de_la_seguridad_soc_rcfc6112ff3",
-    "nota": "Beneficiarios Progresar por trimestre. Para cobrar deben certificar regularidad/asistencia cada año.",
+    "nota": "Beneficiarios Progresar por trimestre, todas las líneas (Obligatorio, Superior, Trabajo, Enfermería), sin desglose. Progresar Superior exige que la institución certifique regularidad 3 veces al año (argentina.gob.ar, consultado 2026-10-30).",
     "beneficiarios": [
       {"periodo": "2019-10", "valor": 571445},
       {"periodo": "2021-10", "valor": 1066501},

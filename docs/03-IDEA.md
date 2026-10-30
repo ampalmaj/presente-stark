@@ -16,7 +16,7 @@ Cada uno dibuja las suyas sin mirar estas. Las de abajo son para destrabar si al
 | B | **Constancia que vale en otra universidad**: la participación en un evento o curso se emite en un formato que la universidad de origen puede comprobar y aceptar para justificar una falta. | Persona 3 | El mail y la buena onda del profe. |
 | C | **Mi historial de asistencia**: la persona ve todas sus asistencias y puede reclamar una en el momento, antes de que se convierta en falta. | Cami | Registro invisible e indiscutible (personas 1 y 2). |
 | D | **Pasaporte de aprendizaje**: acumula constancias de clases, cursos y eventos de distintas instituciones en un solo lugar, exportable. | Cami, empleadores | Certificados en PDF dispersos que nadie puede validar. |
-| E | **Constancia de alumno regular automática**: se genera sola a partir de asistencias verificadas, para Progresar y otras becas. | 811 mil beneficiarios Progresar | Trámite anual por ventanilla. |
+| E | **Constancia de alumno regular automática**: se genera sola a partir de asistencias verificadas, para Progresar y otras becas. | Beneficiarios Progresar Superior | Trámite anual por ventanilla. |
 | F | **Verificador público**: cualquier tercero pega un código o escanea y ve quién emitió, qué, cuándo. Sin escribirle al emisor. | Jefa de carrera, empleador, ANSES | Nadie puede verificar hoy sin preguntarle a la institución. |
 | G | **Alerta de riesgo**: con las asistencias, la persona y la facultad ven con anticipación "te quedan 2 faltas antes de quedar libre". | Cami, Martín | Nadie se entera hasta que es tarde. |
 | H | **Un emisor, muchos contextos**: la misma herramienta la usa el docente en el aula y la acreditación del EDU HUB en la puerta. | Martín, Lu, Ro | Hoy clase, curso y evento son tres sistemas distintos o ninguno. |
@@ -121,3 +121,17 @@ Pasaporte de aprendizaje (D), constancia de alumno regular automática para Prog
 - [ ] Votación con 3 puntos por persona, resultado anotado arriba
 - [ ] Idea elegida pasada por el filtro
 - [ ] Sabemos explicar qué la hace distinta en una línea
+
+## 8. El "wow": lo que la asistencia genera, no la asistencia
+
+OpenARG tiene 33.460 datasets y ninguno dice cuántos estudiantes fueron a clase esta semana. Argentina sabe cuántos se inscriben (2,73 M) y cuántos egresan (5,8%). Entre esos dos números no sabe nada. Acreditar asistencia es el gesto; esto es lo que el gesto produce:
+
+1. **El dato que no existe.** Cada "Estoy acá" es un dato de presencia en tiempo real. Agregado y anónimo es un radar de abandono para la facultad (una comisión que pierde un tercio de presentes en octubre, antes de que queden libres) y, publicado, es el dataset de asistencia que OpenARG no tiene. Devolvemos un dato abierto nuevo, no solo usamos uno. Se puede mostrar mañana con un panel `/datos`: presentes por actividad, tipo y hora, sin nombres, con botón "exportar como dato abierto". Una hora de trabajo sobre lo que ya existe.
+2. **Progresar sin intermediarios.** Las cuatro líneas de Progresar (Obligatorio, Superior, Trabajo, Enfermería; 811 mil beneficiarios) comparten el mismo mecanismo: una institución certifica periódicamente que la persona asiste, cargándolo a mano en una plataforma, tres veces al año. Ahí hay demora, error y discrecionalidad: quién carga, cuándo, a quién. Con Presente la certificación nace en el aula o en el curso, firmada por la institución, y ANSES la verifica sin confiar en quien la cargó ni en ningún intermediario. Sirve igual para la escuela secundaria (Obligatorio), la universidad (Superior) y los cursos de formación profesional (Trabajo). Semana que viene, pero es el argumento de impacto más grande que tenemos.
+3. **Lo que aprendés afuera vale adentro.** Participar de un evento como LABITCONF puede contar como extensión en tu universidad. La asistencia deja de ser control y pasa a ser mérito. Pasaporte de aprendizaje. Semana que viene.
+
+Frase de cierre candidata:
+
+> Argentina sabe cuántos estudiantes entran y cuántos egresan. Hoy, por primera vez, puede saber cuántos están. Sin exponer a ninguno.
+
+Cuidado: dato sensible. Decir en la misma frase que la persona es dueña de su constancia y que lo publicado es agregado y anónimo. Si no, suena a vigilancia.

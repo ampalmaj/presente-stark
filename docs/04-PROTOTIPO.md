@@ -34,7 +34,7 @@ Escrito antes de la votación del Bloque 3, sobre la idea recomendada "Presente"
 
 Cierre de la demo: Cami abre `/mi` y se ve la constancia de hoy junto a la de "Informática II · clase 12" de ayer. Misma pieza para el aula y para el evento.
 
-La landing `/` muestra el dato de OpenARG (2.730.800 estudiantes universitarios, 811.448 beneficiarios Progresar que certifican regularidad cada año) y los tres botones de la demo. Es lo primero que ve el jurado cuando abre el link.
+La landing `/` muestra el dato de OpenARG (2.730.800 estudiantes universitarios, 811.448 beneficiarios Progresar, cuya línea Superior exige certificar regularidad tres veces al año) y los tres botones de la demo. Es lo primero que ve el jurado cuando abre el link.
 
 ### Qué es real y qué está simulado (lo decimos en el pitch)
 
@@ -105,6 +105,15 @@ Si son 4, "QA y entrega" lo absorbe "Diseña".
 | 12:00 | Bloque 5: validación con 3 personas ajenas |
 
 **Primera tarea del sábado:** _______________________ · **La hace:** ______________
+
+## 4b. Cambio de alcance propuesto por la conversación 4 (docente)
+
+Los sistemas de asistencia universitarios admiten **una sola toma por clase** y el docente marca uno por uno. Dos ajustes chicos que responden a eso y se muestran en la demo:
+
+1. **Tomas múltiples en la misma actividad.** El organizador puede volver a abrir el QR durante o al final de la clase ("Nueva toma"). La constancia registra en cuántas tomas estuvo la persona ("presente en 2 de 2 tomas"). Resuelve el que llega tarde y el que se va temprano, sin biometría ni geolocalización. Costo: una columna `toma` en presentes y un botón. Menos de una hora.
+2. **Nadie marca a nadie.** Ya está: cada persona se marca sola en 5 segundos, 50 personas en paralelo. Decirlo explícitamente en el pitch, con la frase del docente.
+
+Lo que no hacemos: integrar con el sistema de la universidad. Se dice como paso siguiente ("Presente le entrega al sistema académico el dato que hoy carga el docente a mano").
 
 ## 5. Lo que necesitamos
 

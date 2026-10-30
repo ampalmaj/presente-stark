@@ -34,7 +34,7 @@ export default function Home() {
         <div className="grid gap-4 sm:grid-cols-3">
           <Stat n={fmt(e2023.estudiantes)} t="estudiantes universitarios en Argentina (2023)" s={`${fmt(publicas)} en universidades públicas`} />
           <Stat n={`${tasaEgreso}%`} t="egresan cada año" s={`la matrícula creció ${crecimiento}% desde 2014, los egresos casi nada`} />
-          <Stat n={fmt(progresar.valor)} t="cobran Progresar" s="y deben certificar regularidad cada año (oct 2025)" />
+          <Stat n={fmt(progresar.valor)} t="cobran Progresar (oct 2025)" s="en nivel superior, la institución certifica regularidad 3 veces al año" />
         </div>
         <p className="text-xs text-muted">
           Fuentes vía <a className="underline" href="https://openarg.org" target="_blank" rel="noopener">OpenARG</a>: Educación superior (datos.gob.ar, 2014-2023) y Seguimiento físico-financiero de prestaciones de la seguridad social (datos.gob.ar). Totales recalculados desde el CSV oficial.

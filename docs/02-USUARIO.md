@@ -9,7 +9,7 @@ Meta: saber a quién le pasa y escucharlo antes de imaginar nada. Listo cuando h
 ### Persona principal: Cami, estudiante que tiene que demostrar que cursó
 
 - **Edad:** 21 años. Tercer año de una carrera de grado en una universidad pública (es el caso del 78% de los 2,7 millones de estudiantes universitarios según OpenARG).
-- **Qué hace:** cursa de noche y trabaja de día. Cobra Progresar, como otras 811 mil personas, y cada año tiene que presentar la constancia de alumna regular para seguir cobrando.
+- **Qué hace:** cursa de noche y trabaja de día. Cobra Progresar Superior y tres veces al año su facultad tiene que certificar que es alumna regular para que siga cobrando.
 - **Dónde le duele:** firma una hoja de asistencia en cada clase y nunca más la ve. Cuando necesita probar que cursó una materia, un seminario o un curso de extensión, depende de que alguien en la facultad lo busque, lo firme y lo selle. Tarda días y a veces el registro no está.
 - **Lo que ya hizo para resolverlo:** sacar fotos a la hoja de asistencia, guardar los mails de inscripción, pedir el certificado con semanas de anticipación, insistir por ventanilla.
 
@@ -91,13 +91,21 @@ Repreguntas si hay tiempo: ¿Cómo toman lista en tus clases? ¿Alguna vez te fi
 - **Frase textual:** "Fue la buena onda del profe que me lo dejó pasar, si no me quedaba libre."
 - **Qué nos dice:** estar hoy en un evento educativo con universidades acreditadas no le vale nada en su propia universidad. La prueba de que participó de LABITCONF no existe, y la de que faltó a clase sí. Todo se resolvió por mail, criterio y buena voluntad.
 
+### Conversación 4 · Docente universitario (Marcelo, del equipo, Universidad Champagnat)
+
+- **Última vez que tomó lista:** cada clase, en el sistema de asistencia de su universidad (asistencia.uch.edu.ar), marcando uno por uno a 50 estudiantes.
+- **Qué hace con la lista:** queda en el sistema de la universidad. Él no la vuelve a usar.
+- **Lo peor:** dos cosas. Marcar uno por uno a 50 personas. Y que el sistema admite **una sola toma por clase**: si la toma al principio, ya no puede volver a tomar durante ni al final. El que llega tarde queda ausente; el que se va después de que lo marcaron queda presente.
+- **Frase textual para el pitch:** "Si tomo al principio, ya no puedo tomar durante ni al final. Y son 50, uno por uno."
+- **Qué nos dice:** confirma la hipótesis del docente, con un matiz importante: la universidad **ya tiene** un sistema digital de asistencia. El problema no es que falte software, es que el software registra una foto, la toma el docente a mano, y el dato queda encerrado en la institución. Nuestra diferencia frente a ese sistema tiene que ser concreta: la persona se marca sola en segundos, se puede tomar más de una vez en la misma clase, y la constancia se la lleva el estudiante.
+
 ## 5. Hipótesis contrastadas y la sorpresa
 
 | Hipótesis | Resultado |
 |---|---|
 | El estudiante tuvo que demostrar asistencia en el último año | **Confirmada y amplificada.** Las tres personas lo vivieron esta semana o ayer, no "en el último año". Es cotidiano. |
 | Conseguirlo tardó y dependió de una persona | **Confirmada.** Persona 3: mail, profesor, jefa de carrera, buena onda. Persona 1: depende de que el profesor lo nombre. |
-| La lista a mano le cuesta al docente y no sirve después | **Sin contrastar todavía.** Las tres personas hablaron desde el lado de quien asiste. Falta la entrevista a un docente, alguien que marca asistencia: guion en la sección 3. |
+| La lista a mano le cuesta al docente y no sirve después | **Confirmada (conversación 4).** 50 estudiantes uno por uno, una sola toma por clase, y el dato queda en el sistema de la universidad sin volver al docente ni al estudiante. |
 | Nadie puede verificar hoy un certificado sin escribirle a la institución | **Confirmada al revés.** Nadie puede verificar hoy que alguien *participó de algo* sin escribirle a alguien. Y a la persona 3 ni siquiera le sirvió el evento como prueba. |
 | (no la teníamos) La tecnología de control de asistencia que ya existe funciona | **Refutada.** Biometría que falla, filas, registros falsos sin apelación. |
 
@@ -122,6 +130,5 @@ Frase de problema actualizada con lo escuchado, por si la usamos en el pitch:
 ## 7. Checklist del bloque
 
 - [x] Persona concreta definida (Cami, 21, estudiante de pública con Progresar)
-- [x] 3 conversaciones anotadas con frases textuales (3 personas que asisten)
+- [x] 4 conversaciones anotadas con frases textuales (3 personas que asisten, 1 docente)
 - [x] Algo nos sorprendió, anotado
-- [ ] Pendiente: entrevista a un docente, alguien que marca asistencia (guion para Martín en la sección 3)
