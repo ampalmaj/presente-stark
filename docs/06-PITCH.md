@@ -2,35 +2,50 @@
 
 **Equipo:** Stark · **Producto:** Presente · **Track:** Nueva Educación · 60 segundos de pitch + 60 de preguntas. El jurado corta en 60.
 
-## Guion (unas 150 palabras, hablado a ritmo normal entra en 55 segundos)
+## Guion (unas 160 palabras, entra en 58 segundos a ritmo normal)
 
-**0–10 s · El problema** *(mirando al jurado, sin pantalla)*
+**0–12 s · El problema** *(sin pantalla, una sola persona habla, mirando al jurado, pausa después de "libre")*
 
-> Una estudiante del interior vino esta semana a LABITCONF. Faltó a dos materias. Para justificarlo mandó un mail, el profesor consultó a la jefa de carrera, y zafó de quedar libre, en sus palabras, "por la buena onda del profe". Vino a aprender y no tenía cómo probarlo.
+> Esta semana una estudiante viajó desde el interior para estar acá, en LABITCONF. Faltó a dos materias. Para que no la dejaran libre mandó un mail y esperó. Zafó, nos dijo, "por la buena onda del profe". Vino a aprender, y su única prueba era la buena onda de alguien.
+>
+> Como ella, 811 mil personas cobran Progresar, y su beca depende de que alguien, en alguna oficina, cargue a mano tres veces al año que siguen yendo.
 
-**10–20 s · La solución**
+**12–20 s · La solución**
 
-> Presente es una constancia de participación que te queda en el celular cuando asistís a una clase, un curso o un evento, firmada por quien lo dicta, y que cualquiera verifica sin pedirle nada a nadie.
+> Presente es la constancia de que estuviste. Nace en el aula, la firma la institución, queda en tu celular, y cualquiera la verifica sin pedirle nada a nadie.
 
-**20–45 s · La demo** *(en vivo, dos celulares y la pantalla)*
+**20–43 s · La demo** *(en vivo, pantalla y dos celulares, el que narra no toca nada)*
 
-> [Pantalla] El organizador abre la actividad: un QR que cambia cada 30 segundos.
-> [Celular 1] Ella escanea, pone su nombre, "Estoy acá". Cinco segundos: constancia firmada, anclada en Bitcoin.
-> [Celular 2] La jefa de carrera escanea la constancia: válida, emitida por el EDU HUB, hoy a las 15:10. Sin mail. Sin llamar a nadie.
+> [Pantalla] El profesor abre la clase: un código que cambia cada diez segundos.
+> [Celular 1] Ella escanea, "Estoy acá", apunta la cámara a la pantalla para demostrar que está ahí, no en una foto. Cinco segundos: constancia firmada, anclada en Bitcoin.
+> [Celular 2] La secretaría académica, o ANSES, escanea su constancia: válida, emitida por la universidad, hoy, 15:10. Sin mail. Sin esperar. Sin buena onda.
 
-**45–55 s · Por qué funciona**
+**43–55 s · Por qué funciona y quién paga**
 
-> Hablamos con tres personas: a las tres les pasó esta semana. Hay 2,7 millones de estudiantes universitarios y Progresar paga a 811 mil personas que dependen de que una institución certifique que siguen yendo, según OpenARG. Y la constancia es de la persona, no de la institución: en Bitcoin solo va la huella, así que se verifica dentro de cinco años aunque nosotros no existamos.
+> Hablamos con cuatro personas, incluido un profesor que marca a 50 alumnos uno por uno. Argentina tiene 2,7 millones de estudiantes universitarios y ningún dato público de asistencia: OpenARG tiene 33 mil datasets y ninguno dice quién está.
+> Nuestro cliente es el Estado: ANSES y Capital Humano pagan 811 mil becas condicionadas a asistir sin poder medir la asistencia. Compran eso: pagar solo a quien cumple, saberlo el mismo mes, sin intermediarios. Y mientras el Estado decide, cobramos por constancia a quienes ya pagan por certificar.
 
 **55–60 s · El cierre**
 
-> La semana que viene: el EDU HUB emite las constancias de esta hackatón con Presente, y vamos con eso a la primera facultad.
+> Argentina sabe cuántos estudiantes entran y cuántos egresan. Con Presente, por primera vez, sabe cuántos están. Sin exponer a ninguno.
+
+### Las tres emociones del guion, en orden
+
+1. **Injusticia concreta** (0–12 s): una persona, una decisión que dependió de otro. No "el sistema", sino "la buena onda del profe". El jurado tiene que sentir la arbitrariedad antes de ver un solo botón.
+2. **Alivio visible** (20–43 s): la demo es la misma escena resuelta. Por eso el verificador es "la secretaría o ANSES", no "un tercero": el jurado tiene que ver a la misma estudiante del principio dejando de esperar.
+3. **Escala con dueño** (43–60 s): 811 mil personas, un cliente con nombre que ya gasta esa plata, y un cierre que es una frase, no una promesa.
+
+### Lo que no decir
+
+- Ni "blockchain" ni "Bitcoin" antes del segundo 35. La tecnología aparece una vez, dentro de la demo, como un hecho.
+- Ni "disruptivo", ni "revolucionar", ni "ecosistema". Los datos y la persona hacen el trabajo.
+- No nombrar al equipo ni la stack. Si preguntan, se contesta.
 
 ## Quién dice qué
 
 | Bloque | Quién habla | Quién maneja |
 |---|---|---|
-| Problema y solución | Persona A | Nadie: sin pantalla, mirar al jurado |
+| Problema y solución | Persona A | Nadie: pantalla en negro o con el logo, mirar al jurado |
 | Demo | Persona A narra | Persona B en la laptop (QR), Persona C celular 1, Persona D celular 2 |
 | Por qué funciona y cierre | Persona A (o B) | B deja en pantalla la verificación "Constancia válida" |
 
