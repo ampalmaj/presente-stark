@@ -15,10 +15,13 @@ Abre en <http://localhost:3000>. Sin variables de entorno usa almacenamiento en 
 
 ## El camino de la demo
 
-1. `/emitir`: quien dicta crea la actividad y proyecta el QR, que rota cada 30 segundos.
-2. `/p/[id]?t=…`: quien asiste escanea, pone nombre y mail, toca "Estoy acá" y recibe la constancia en `/c/[code]`.
+1. `/emitir`: quien dicta crea la actividad y queda en `/emitir/[id]?k=<clave>`: esa URL es suya (la clave habilita el estado, "Nueva toma" y "Marcar a alguien sin celular"). Proyecta el QR, que rota cada 10 segundos y no incluye la clave.
+2. `/p/[id]?t=…`: quien asiste escanea, pone nombre y mail, toca "Estoy acá" y **apunta la cámara a la pantalla**: la página lee el código vigente con la cámara (jsQR) y lo manda como prueba de presencia. Una foto reenviada no pasa: el servidor exige que ese código sea de la ventana actual o la anterior (10 a 20 s). Recibe la constancia en `/c/[code]`.
 3. `/v/[code]#payload`: quien necesita comprobar escanea el QR de la constancia. Se verifica en el navegador: hash, firma Ed25519 contra el registro de `/emisores`, anclaje en Bitcoin.
-4. `/mi`: historial guardado en el celular de la persona.
+4. `/mi`: historial guardado en el celular, con una vista simulada de cómo se vería como credencial en Mi Argentina.
+5. `/datos`: panel agregado y anónimo (personas por actividad, sin nombres) con exportación CSV. Es el dato de asistencia que hoy no existe en ningún portal.
+
+**Tomas múltiples:** "Nueva toma" vuelve a abrir la asistencia durante o al final de la clase. Cada toma emite su propia constancia firmada; la tarjeta muestra "presente en 2 de 2 tomas". **Sin celular:** quien dicta marca a la persona con nombre y mail; la constancia sale igual, indicando que la marcó quien dicta.
 
 ## Deploy en Vercel (15 minutos)
 
@@ -43,7 +46,8 @@ Sin Supabase la app en Vercel pierde los datos entre invocaciones: la demo no fu
 
 | Real | Simulado |
 |---|---|
-| QR rotativo con token HMAC por ventana de 30 s | Dos emisores precargados, sin alta institucional |
+| QR rotativo con token HMAC por ventana de 10 s, y prueba de presencia en vivo leída con la cámara | Dos emisores precargados, sin alta institucional |
+| Tomas múltiples por actividad y marcado por quien dicta | Vista "Mi Argentina" del historial: maqueta, la integración requiere convenio |
 | Constancia firmada con Ed25519 por la clave del emisor | Identidad del participante: nombre y mail sin verificación |
 | Verificación en el navegador, sin consultar al emisor | Constancia "de ayer" en el historial, marcada como ejemplo |
 | Hash enviado a Bitcoin vía OpenTimestamps (calendarios públicos) | La confirmación en bloque tarda horas: se muestra "enviada, confirma en horas" |
@@ -54,7 +58,8 @@ Sin Supabase la app en Vercel pierde los datos entre invocaciones: la demo no fu
 ```
 app/            páginas y rutas de API (Next.js App Router)
 lib/crypto.ts   sha256, Ed25519, JSON canónico, HMAC
-lib/token.ts    token rotativo del QR
+lib/token.ts    token rotativo del QR (10 s) con dos tolerancias: link y prueba en vivo
+components/Escaner.tsx lectura del QR con la cámara (jsQR)
 lib/constancias.ts emisión y payload verificable
 lib/anchor.ts   OpenTimestamps
 lib/store.ts    memoria (local) o Supabase (producción)

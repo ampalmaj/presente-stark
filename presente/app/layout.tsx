@@ -25,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/emitir" className="rounded-lg px-2.5 py-2 hover:bg-background">Emitir</Link>
               <Link href="/mi" className="rounded-lg px-2.5 py-2 hover:bg-background"><span className="sm:hidden">Mías</span><span className="hidden sm:inline">Mis constancias</span></Link>
               <Link href="/verificar" className="rounded-lg px-2.5 py-2 hover:bg-background">Verificar</Link>
+              <Link href="/datos" className="rounded-lg px-2.5 py-2 hover:bg-background">Datos</Link>
             </div>
           </nav>
         </header>

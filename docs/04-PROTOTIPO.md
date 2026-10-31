@@ -18,6 +18,8 @@ Escrito antes de la votación del Bloque 3, sobre la idea recomendada "Presente"
 - `/mi`: historial local. `/emisores`: registro público de claves.
 - Token vencido rechazado con mensaje claro. `next build` compila sin errores, lint limpio.
 
+**Sábado 31, 10:40 · las tres mejoras están hechas y probadas en local:** prueba de presencia en vivo (la página lee el QR de la pantalla con la cámara al confirmar; una foto no pasa), tomas múltiples con "Nueva toma" y constancia por toma, marcado de personas sin celular por quien dicta, clave de organizador en la URL de la pantalla del QR, vista simulada de Mi Argentina en `/mi` y panel agregado `/datos` con exportación CSV. Build de producción OK.
+
 **Falta para que el link funcione desde cualquier computadora:** cuentas de Supabase, GitHub y Vercel, y las tres variables de entorno. Guía paso a paso en `presente/README.md` y esquema en `presente/supabase/schema.sql`. Sin Supabase, en Vercel se pierden los datos entre llamadas.
 
 **Primera tarea del sábado, propuesta:** probar el flujo completo en el deploy de Vercel con dos celulares reales y anotar fallos.

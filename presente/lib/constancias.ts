@@ -2,7 +2,7 @@ import { canonicalJson, randomHex, sha256Hex, sign } from "./crypto";
 import { emisorPorId, seedDeEmisor } from "./emisores";
 import type { Actividad, Constancia, ConstanciaDoc } from "./types";
 
-export function emitirConstancia(actividad: Actividad, nombre: string, emailHash: string): Constancia {
+export function emitirConstancia(actividad: Actividad, nombre: string, emailHash: string, toma: number, modo: "qr" | "docente"): Constancia {
   const emisor = emisorPorId(actividad.emisor_id);
   const seed = seedDeEmisor(actividad.emisor_id);
   if (!emisor || !seed) throw new Error("Emisor no registrado");
@@ -12,6 +12,8 @@ export function emitirConstancia(actividad: Actividad, nombre: string, emailHash
     emisor: { id: emisor.id, nombre: emisor.nombre },
     actividad: { id: actividad.id, nombre: actividad.nombre, tipo: actividad.tipo },
     participante: { nombre, hash: emailHash },
+    toma,
+    modo,
     emitida: new Date().toISOString(),
     nonce: randomHex(8),
   };
@@ -23,6 +25,7 @@ export function emitirConstancia(actividad: Actividad, nombre: string, emailHash
     code,
     actividad_id: actividad.id,
     emisor_id: emisor.id,
+    toma,
     doc,
     firma,
     anclaje: { red: "bitcoin", metodo: "opentimestamps", estado: "pendiente" },

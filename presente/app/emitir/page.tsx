@@ -24,7 +24,7 @@ export default function EmitirPage() {
     const d = await r.json();
     setCargando(false);
     if (!r.ok) { setError(d.error ?? "No se pudo crear"); return; }
-    router.push(`/emitir/${d.id}`);
+    router.push(`/emitir/${d.id}?k=${d.clave_admin}`);
   }
 
   return (

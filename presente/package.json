@@ -12,6 +12,7 @@
     "@noble/ed25519": "^3.2.0",
     "@noble/hashes": "^2.4.0",
     "@supabase/supabase-js": "^2.118.0",
+    "jsqr": "^1.4.0",
     "next": "16.4.3",
     "opentimestamps": "^0.4.9",
     "qrcode": "^1.5.4",

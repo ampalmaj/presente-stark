@@ -20,8 +20,11 @@ export async function POST(req: Request) {
     tipo,
     emisor_id: emisor.id,
     secreto: randomHex(32),
+    clave_admin: randomHex(12),
+    toma_actual: 1,
     creada: new Date().toISOString(),
   };
   await getStore().crearActividad(actividad);
-  return NextResponse.json({ id: actividad.id, nombre, tipo, emisor: { id: emisor.id, nombre: emisor.nombre } });
+  // La clave de organizador se devuelve una sola vez: va en la URL de la pantalla del QR, nunca en el QR.
+  return NextResponse.json({ id: actividad.id, clave_admin: actividad.clave_admin, nombre, tipo, emisor: { id: emisor.id, nombre: emisor.nombre } });
 }
