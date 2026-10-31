@@ -1,5 +1,7 @@
 # edu-hub · hackatón
 
+Repositorio: <https://github.com/ampalmaj/presente-stark> · Prototipo en `presente/` · Ruta y documentos en `docs/`
+
 Prototipo que usa datos abiertos de Argentina vía el MCP oficial de [OpenArg](https://openarg.org).
 
 ## Conectar el MCP de OpenArg

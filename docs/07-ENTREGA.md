@@ -11,7 +11,7 @@ Marcar las 6 paradas como minadas: Problema ✓, Usuario ✓, Idea, Prototipo, V
 | Campo | Qué poner | Obligatorio |
 |---|---|---|
 | **Demo** | Link público que abra desde cualquier computadora. Será la URL de Vercel, por ejemplo `https://presente-stark.vercel.app`. Tiene que estar desplegado con Supabase, si no pierde datos entre llamadas | Sí |
-| **Repo** | Link al repositorio en GitHub. Opcional, pero lo tenemos | No |
+| **Repo** | <https://github.com/ampalmaj/presente-stark> | No |
 | **Video** | Link al video de respaldo de 20 segundos, grabado el sábado a las 11:30 sobre el deploy real. Subirlo a YouTube como no listado o a Drive con acceso por link | No, pero conviene |
 | **Frase** | Una línea que describe el proyecto | Sí |
 

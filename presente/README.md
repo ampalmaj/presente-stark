@@ -30,7 +30,7 @@ Abre en <http://localhost:3000>. Sin variables de entorno usa almacenamiento en 
    ```
 
    Armar el JSON `{"uni-demo":"<hex1>","eduhub":"<hex2>"}`.
-3. **GitHub**: subir esta carpeta a un repo (privado está bien).
+3. **GitHub**: el repo es <https://github.com/ampalmaj/presente-stark> (la app está en la subcarpeta `presente/`).
 4. **Vercel**: New Project → importar el repo → Root Directory `presente` si el repo es el de la hackatón completa. Environment Variables:
    - `SUPABASE_URL`
    - `SUPABASE_SERVICE_ROLE_KEY`
